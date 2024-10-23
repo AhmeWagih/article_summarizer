@@ -1,10 +1,10 @@
-import { logo } from "../assets";
+import { logo2 } from "../assets";
 const Hero = () => {
   return (
     <div className="w-full flex justify-center items-center flex-col">
       {/* start nav */}
-      <div className="flex justify-between items-center w-full pt-3 mb-10">
-        <img src={logo} alt="logo" className="w-28 object-contain" />
+      <div className="flex justify-between items-center w-full mb-4 mt-[-90px]">
+        <img src={logo2} alt="Logo Image" className="w-64 object-contain" />
         <button
           type="button"
           className="black_btn"
